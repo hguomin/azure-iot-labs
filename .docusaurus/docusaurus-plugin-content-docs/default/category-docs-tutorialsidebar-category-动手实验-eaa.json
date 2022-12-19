@@ -1,0 +1,16 @@
+{
+  "title": "动手实验",
+  "description": "All labs are here.",
+  "slug": "/category/动手实验",
+  "permalink": "/docs/category/动手实验",
+  "navigation": {
+    "previous": {
+      "title": "Translate your site",
+      "permalink": "/docs/tutorial-extras/translate-your-site"
+    },
+    "next": {
+      "title": "实验一：创建动手实验的应用程序项目",
+      "permalink": "/docs/labs/projects-init"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "title": "Labs",
+  "description": "All labs are here.",
+  "slug": "/category/labs",
+  "permalink": "/docs/category/labs",
+  "navigation": {
+    "previous": {
+      "title": "Translate your site",
+      "permalink": "/docs/tutorial-extras/translate-your-site"
+    },
+    "next": {
+      "title": "实验一：创建动手实验的应用程序项目",
+      "permalink": "/docs/labs/projects-init"
+    }
+  }
+}
