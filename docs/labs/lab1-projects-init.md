@@ -239,4 +239,110 @@ mvn package azure-functions:run
       : Started application in 1.257 seconds (JVM running for 140.428)
 ```
 
+### 步骤三：添加前端UI代码
+
+在目录`src\main`目录下创建一个名为`web`的目录，在该目录中执行下述命令创建前端React项目
+```bash
+cd web
+npx create-react-app . --template typescript
+```
+
+在`pom.xml`的`<properties>...</properties>`节点中添加以下配置：
+```xml title=pom.xml
+		<node.version>v16.13.1</node.version>
+        <npm.version>8.6.0</npm.version>
+		<frontend.maven.plugin.version>1.12.1</frontend.maven.plugin.version>
+		<webSrcDir>${project.basedir}/src/main/web</webSrcDir>
+```
+
+项目通过使用`frontend-maven-plugin`插件安装前端项目构建工具`node`和`npm`并调用相应命令构建前端资源文件，随后利用`maven-resources-plugin`插件将生成的前端资源文件拷贝到项目的资源文件目录中供maven一并打包使用。
+
+首先在`maven-clean-plugin`插件的<filesets></filesets>节点中添加一个`fileset`用于删除生成的前端文件：
+```xml title=pom.xml
+                        <fileset>
+                            <!-- 后端项目中前端资源文件目录 -->
+                            <directory>${baseDir}/src/main/resources/public</directory>
+                        </fileset>
+```
+
+然后在`pom.xml`的`<plugins>...</plugins>`节点中添加以下内容：
+
+```xml title=pom.xml
+            <!-- 前端项目构建 -->
+			<plugin>
+                <groupId>com.github.eirslett</groupId>
+                <artifactId>frontend-maven-plugin</artifactId>
+                <version>${frontend.maven.plugin.version}</version>
+				<configuration>
+                    <workingDirectory>${webSrcDir}</workingDirectory>
+					<nodeVersion>${node.version}</nodeVersion>
+                    <npmVersion>${npm.version}</npmVersion>
+					<installDirectory>${basedir}/target/dev-tools</installDirectory> 
+                </configuration>
+
+                <executions>
+                    <execution>
+                        <id>install node and npm</id>
+                        <goals>
+                            <goal>install-node-and-npm</goal>
+                        </goals>
+                        <phase>generate-resources</phase>
+                    </execution>
+
+                    <execution>
+                        <id>npm install</id>
+                        <goals>
+                            <goal>npm</goal>
+                        </goals>
+                        <phase>generate-resources</phase>
+                        <configuration>
+                            <arguments>install</arguments>
+                        </configuration>
+                    </execution>
+
+					<execution>
+						<id>npm run build</id>
+						<goals>
+							<goal>npm</goal>
+						</goals>
+						<phase>generate-resources</phase>
+						<configuration>
+							<arguments>run build</arguments>
+						</configuration>
+					</execution>
+                </executions>
+            </plugin>
+            
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-resources-plugin</artifactId>
+                <version>3.2.0</version>
+                <executions>
+                    <execution>
+                        <id>copy frontend resource files</id>
+                        <phase>generate-resources</phase>
+                        <goals>
+                            <goal>copy-resources</goal>
+                        </goals>
+                        <configuration>
+                            <outputDirectory>${basedir}/src/main/resources/public</outputDirectory>
+                            <overwrite>true</overwrite>
+                            <resources>
+                                <resource>
+                                    <directory>${webSrcDir}/build</directory>
+                                    <includes>
+										<include>**</include>
+                                    </includes>
+                                </resource>
+                            </resources>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+            <!-- 结束：前端项目构建 -->
+```
 ## 创建Azure IoT Edge模块项目
+
+
+## 参考文档
+* [Spring Cloud Function in Azure 入门](https://learn.microsoft.com/en-us/azure/developer/java/spring-framework/getting-started-with-spring-cloud-function-in-azure)

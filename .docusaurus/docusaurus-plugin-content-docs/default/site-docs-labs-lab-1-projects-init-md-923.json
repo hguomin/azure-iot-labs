@@ -1,14 +1,14 @@
 {
-  "unversionedId": "labs/projects-init",
-  "id": "labs/projects-init",
+  "unversionedId": "labs/lab1-projects-init",
+  "id": "labs/lab1-projects-init",
   "title": "实验一：创建动手实验的应用程序项目",
   "description": "在本次实验中，我们将创建并初始化实验所需的各个应用程序项目的代码。",
-  "source": "@site/docs/labs/projects-init.md",
+  "source": "@site/docs/labs/lab1-projects-init.md",
   "sourceDirName": "labs",
-  "slug": "/labs/projects-init",
-  "permalink": "/docs/labs/projects-init",
+  "slug": "/labs/lab1-projects-init",
+  "permalink": "/docs/labs/lab1-projects-init",
   "draft": false,
-  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/labs/projects-init.md",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/labs/lab1-projects-init.md",
   "tags": [],
   "version": "current",
   "sidebarPosition": 1,
@@ -22,6 +22,6 @@
   },
   "next": {
     "title": "实验二：从IoT Hub接收设备数据",
-    "permalink": "/docs/labs/iothub-message-receive"
+    "permalink": "/docs/labs/lab2-iothub-message-receive"
   }
 }

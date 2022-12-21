@@ -90,8 +90,20 @@
           {
             "type": "link",
             "label": "实验一：创建动手实验的应用程序项目",
-            "href": "/docs/labs/projects-init",
-            "docId": "labs/projects-init"
+            "href": "/docs/labs/lab1-projects-init",
+            "docId": "labs/lab1-projects-init"
+          },
+          {
+            "type": "link",
+            "label": "实验二：从IoT Hub接收设备数据",
+            "href": "/docs/labs/lab2-iothub-message-receive",
+            "docId": "labs/lab2-iothub-message-receive"
+          },
+          {
+            "type": "link",
+            "label": "实验三：IoT设备数据的可视化",
+            "href": "/docs/labs/lab3-data-visualization",
+            "docId": "labs/lab3-data-visualization"
           }
         ],
         "href": "/docs/category/动手实验"
@@ -105,10 +117,22 @@
       "description": "Let's discover Docusaurus in less than 5 minutes.",
       "sidebar": "tutorialSidebar"
     },
-    "labs/projects-init": {
-      "id": "labs/projects-init",
+    "labs/lab1-projects-init": {
+      "id": "labs/lab1-projects-init",
       "title": "实验一：创建动手实验的应用程序项目",
       "description": "在本次实验中，我们将创建并初始化实验所需的各个应用程序项目的代码。",
+      "sidebar": "tutorialSidebar"
+    },
+    "labs/lab2-iothub-message-receive": {
+      "id": "labs/lab2-iothub-message-receive",
+      "title": "实验二：从IoT Hub接收设备数据",
+      "description": "Azure Functions调试的存储账号设置",
+      "sidebar": "tutorialSidebar"
+    },
+    "labs/lab3-data-visualization": {
+      "id": "labs/lab3-data-visualization",
+      "title": "实验三：IoT设备数据的可视化",
+      "description": "步骤一：添加项目依赖",
       "sidebar": "tutorialSidebar"
     },
     "tutorial-basics/congratulations": {

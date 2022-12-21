@@ -16,8 +16,18 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "labs/projects-init",
-              "path": "/docs/labs/projects-init",
+              "id": "labs/lab1-projects-init",
+              "path": "/docs/labs/lab1-projects-init",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "labs/lab2-iothub-message-receive",
+              "path": "/docs/labs/lab2-iothub-message-receive",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "labs/lab3-data-visualization",
+              "path": "/docs/labs/lab3-data-visualization",
               "sidebar": "tutorialSidebar"
             },
             {

@@ -99,7 +99,7 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '988'),
+    component: ComponentCreator('/docs', 'dd8'),
     routes: [
       {
         path: '/docs/category/tutorial---basics',
@@ -126,8 +126,20 @@ export default [
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/labs/projects-init',
-        component: ComponentCreator('/docs/labs/projects-init', 'da9'),
+        path: '/docs/labs/lab1-projects-init',
+        component: ComponentCreator('/docs/labs/lab1-projects-init', 'f62'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/labs/lab2-iothub-message-receive',
+        component: ComponentCreator('/docs/labs/lab2-iothub-message-receive', 'cce'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/labs/lab3-data-visualization',
+        component: ComponentCreator('/docs/labs/lab3-data-visualization', 'c5b'),
         exact: true,
         sidebar: "tutorialSidebar"
       },

@@ -186,7 +186,7 @@
     },
     "content": "content---markdown-page-393-028"
   },
-  "/docs-988": {
+  "/docs-dd8": {
     "__comp": "__comp---theme-doc-page-1-be-9be",
     "__context": {
       "plugin": "plugin---docs-480-4d9"
@@ -209,9 +209,17 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-intro-0-e-3-be1"
   },
-  "/docs/labs/projects-init-da9": {
+  "/docs/labs/lab1-projects-init-f62": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-labs-projects-init-87-f-eba"
+    "content": "content---docs-labs-lab-1-projects-init-923-bb5"
+  },
+  "/docs/labs/lab2-iothub-message-receive-cce": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-labs-lab-2-iothub-message-receiveeae-7e6"
+  },
+  "/docs/labs/lab3-data-visualization-c5b": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-labs-lab-3-data-visualization-9-e-1-186"
   },
   "/docs/tutorial-basics/congratulations-793": {
     "__comp": "__comp---theme-doc-item-178-a40",

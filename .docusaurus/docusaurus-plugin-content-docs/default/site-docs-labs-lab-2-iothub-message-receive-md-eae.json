@@ -1,0 +1,27 @@
+{
+  "unversionedId": "labs/lab2-iothub-message-receive",
+  "id": "labs/lab2-iothub-message-receive",
+  "title": "实验二：从IoT Hub接收设备数据",
+  "description": "Azure Functions调试的存储账号设置",
+  "source": "@site/docs/labs/lab2-iothub-message-receive.md",
+  "sourceDirName": "labs",
+  "slug": "/labs/lab2-iothub-message-receive",
+  "permalink": "/docs/labs/lab2-iothub-message-receive",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/labs/lab2-iothub-message-receive.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "实验一：创建动手实验的应用程序项目",
+    "permalink": "/docs/labs/lab1-projects-init"
+  },
+  "next": {
+    "title": "实验三：IoT设备数据的可视化",
+    "permalink": "/docs/labs/lab3-data-visualization"
+  }
+}
