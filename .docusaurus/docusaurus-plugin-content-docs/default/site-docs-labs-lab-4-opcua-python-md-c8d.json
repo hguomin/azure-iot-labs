@@ -1,0 +1,27 @@
+{
+  "unversionedId": "labs/lab4-opcua-python",
+  "id": "labs/lab4-opcua-python",
+  "title": "实验四：Python实现OPC UA数据采集",
+  "description": "",
+  "source": "@site/docs/labs/lab4-opcua-python.md",
+  "sourceDirName": "labs",
+  "slug": "/labs/lab4-opcua-python",
+  "permalink": "/docs/labs/lab4-opcua-python",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/labs/lab4-opcua-python.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "实验三：IoT设备数据的可视化",
+    "permalink": "/docs/labs/lab3-data-visualization"
+  },
+  "next": {
+    "title": "实验五：应用程序UI实现",
+    "permalink": "/docs/labs/lab5-app-ui"
+  }
+}

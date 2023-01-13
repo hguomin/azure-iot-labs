@@ -31,6 +31,26 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "labs/lab4-opcua-python",
+              "path": "/docs/labs/lab4-opcua-python",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "labs/lab5-app-ui",
+              "path": "/docs/labs/lab5-app-ui",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "labs/lab6-iot-hub-sdk-integration",
+              "path": "/docs/labs/lab6-iot-hub-sdk-integration",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "labs/lab7-device-management-implementation",
+              "path": "/docs/labs/lab7-device-management-implementation",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "tutorial-basics/congratulations",
               "path": "/docs/tutorial-basics/congratulations",
               "sidebar": "tutorialSidebar"

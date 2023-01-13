@@ -1,0 +1,27 @@
+{
+  "unversionedId": "labs/lab6-iot-hub-sdk-integration",
+  "id": "labs/lab6-iot-hub-sdk-integration",
+  "title": "实验六：在应用程序中集成Azure IoT Hub服务端SDKs",
+  "description": "在本次实验中，我们将在Azure Functions应用程序中集成Azure IoT Hub的服务端SDK，并通过SDK调用Azure IoT Hub开放的API实现对边缘设备的远程配置、控制管理及应用部署等功能。",
+  "source": "@site/docs/labs/lab6-iot-hub-sdk-integration.md",
+  "sourceDirName": "labs",
+  "slug": "/labs/lab6-iot-hub-sdk-integration",
+  "permalink": "/docs/labs/lab6-iot-hub-sdk-integration",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/labs/lab6-iot-hub-sdk-integration.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "sidebar_position": 6
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "实验五：应用程序UI实现",
+    "permalink": "/docs/labs/lab5-app-ui"
+  },
+  "next": {
+    "title": "实验七：设备管理功能实现",
+    "permalink": "/docs/labs/lab7-device-management-implementation"
+  }
+}

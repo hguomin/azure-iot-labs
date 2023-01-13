@@ -99,7 +99,7 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', 'dd8'),
+    component: ComponentCreator('/docs', '427'),
     routes: [
       {
         path: '/docs/category/tutorial---basics',
@@ -140,6 +140,30 @@ export default [
       {
         path: '/docs/labs/lab3-data-visualization',
         component: ComponentCreator('/docs/labs/lab3-data-visualization', 'c5b'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/labs/lab4-opcua-python',
+        component: ComponentCreator('/docs/labs/lab4-opcua-python', 'b00'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/labs/lab5-app-ui',
+        component: ComponentCreator('/docs/labs/lab5-app-ui', 'f8a'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/labs/lab6-iot-hub-sdk-integration',
+        component: ComponentCreator('/docs/labs/lab6-iot-hub-sdk-integration', '2d3'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/labs/lab7-device-management-implementation',
+        component: ComponentCreator('/docs/labs/lab7-device-management-implementation', '7d9'),
         exact: true,
         sidebar: "tutorialSidebar"
       },

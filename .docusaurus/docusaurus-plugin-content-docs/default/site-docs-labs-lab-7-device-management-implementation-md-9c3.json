@@ -1,0 +1,23 @@
+{
+  "unversionedId": "labs/lab7-device-management-implementation",
+  "id": "labs/lab7-device-management-implementation",
+  "title": "实验七：设备管理功能实现",
+  "description": "获取设备列表",
+  "source": "@site/docs/labs/lab7-device-management-implementation.md",
+  "sourceDirName": "labs",
+  "slug": "/labs/lab7-device-management-implementation",
+  "permalink": "/docs/labs/lab7-device-management-implementation",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/labs/lab7-device-management-implementation.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 7,
+  "frontMatter": {
+    "sidebar_position": 7
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "实验六：在应用程序中集成Azure IoT Hub服务端SDKs",
+    "permalink": "/docs/labs/lab6-iot-hub-sdk-integration"
+  }
+}

@@ -117,6 +117,114 @@
               "previous": {
                 "title": "实验二：从IoT Hub接收设备数据",
                 "permalink": "/docs/labs/lab2-iothub-message-receive"
+              },
+              "next": {
+                "title": "实验四：Python实现OPC UA数据采集",
+                "permalink": "/docs/labs/lab4-opcua-python"
+              }
+            },
+            {
+              "unversionedId": "labs/lab4-opcua-python",
+              "id": "labs/lab4-opcua-python",
+              "title": "实验四：Python实现OPC UA数据采集",
+              "description": "",
+              "source": "@site/docs/labs/lab4-opcua-python.md",
+              "sourceDirName": "labs",
+              "slug": "/labs/lab4-opcua-python",
+              "permalink": "/docs/labs/lab4-opcua-python",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/labs/lab4-opcua-python.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 4,
+              "frontMatter": {
+                "sidebar_position": 4
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "实验三：IoT设备数据的可视化",
+                "permalink": "/docs/labs/lab3-data-visualization"
+              },
+              "next": {
+                "title": "实验五：应用程序UI实现",
+                "permalink": "/docs/labs/lab5-app-ui"
+              }
+            },
+            {
+              "unversionedId": "labs/lab5-app-ui",
+              "id": "labs/lab5-app-ui",
+              "title": "实验五：应用程序UI实现",
+              "description": "",
+              "source": "@site/docs/labs/lab5-app-ui.md",
+              "sourceDirName": "labs",
+              "slug": "/labs/lab5-app-ui",
+              "permalink": "/docs/labs/lab5-app-ui",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/labs/lab5-app-ui.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 5,
+              "frontMatter": {
+                "sidebar_position": 5
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "实验四：Python实现OPC UA数据采集",
+                "permalink": "/docs/labs/lab4-opcua-python"
+              },
+              "next": {
+                "title": "实验六：在应用程序中集成Azure IoT Hub服务端SDKs",
+                "permalink": "/docs/labs/lab6-iot-hub-sdk-integration"
+              }
+            },
+            {
+              "unversionedId": "labs/lab6-iot-hub-sdk-integration",
+              "id": "labs/lab6-iot-hub-sdk-integration",
+              "title": "实验六：在应用程序中集成Azure IoT Hub服务端SDKs",
+              "description": "在本次实验中，我们将在Azure Functions应用程序中集成Azure IoT Hub的服务端SDK，并通过SDK调用Azure IoT Hub开放的API实现对边缘设备的远程配置、控制管理及应用部署等功能。",
+              "source": "@site/docs/labs/lab6-iot-hub-sdk-integration.md",
+              "sourceDirName": "labs",
+              "slug": "/labs/lab6-iot-hub-sdk-integration",
+              "permalink": "/docs/labs/lab6-iot-hub-sdk-integration",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/labs/lab6-iot-hub-sdk-integration.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 6,
+              "frontMatter": {
+                "sidebar_position": 6
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "实验五：应用程序UI实现",
+                "permalink": "/docs/labs/lab5-app-ui"
+              },
+              "next": {
+                "title": "实验七：设备管理功能实现",
+                "permalink": "/docs/labs/lab7-device-management-implementation"
+              }
+            },
+            {
+              "unversionedId": "labs/lab7-device-management-implementation",
+              "id": "labs/lab7-device-management-implementation",
+              "title": "实验七：设备管理功能实现",
+              "description": "获取设备列表",
+              "source": "@site/docs/labs/lab7-device-management-implementation.md",
+              "sourceDirName": "labs",
+              "slug": "/labs/lab7-device-management-implementation",
+              "permalink": "/docs/labs/lab7-device-management-implementation",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/labs/lab7-device-management-implementation.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 7,
+              "frontMatter": {
+                "sidebar_position": 7
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "实验六：在应用程序中集成Azure IoT Hub服务端SDKs",
+                "permalink": "/docs/labs/lab6-iot-hub-sdk-integration"
               }
             },
             {
@@ -419,6 +527,22 @@
                   {
                     "type": "doc",
                     "id": "labs/lab3-data-visualization"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "labs/lab4-opcua-python"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "labs/lab5-app-ui"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "labs/lab6-iot-hub-sdk-integration"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "labs/lab7-device-management-implementation"
                   }
                 ],
                 "link": {

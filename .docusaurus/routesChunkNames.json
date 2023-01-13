@@ -186,7 +186,7 @@
     },
     "content": "content---markdown-page-393-028"
   },
-  "/docs-dd8": {
+  "/docs-427": {
     "__comp": "__comp---theme-doc-page-1-be-9be",
     "__context": {
       "plugin": "plugin---docs-480-4d9"
@@ -220,6 +220,22 @@
   "/docs/labs/lab3-data-visualization-c5b": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-labs-lab-3-data-visualization-9-e-1-186"
+  },
+  "/docs/labs/lab4-opcua-python-b00": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-labs-lab-4-opcua-pythonc-8-d-b8b"
+  },
+  "/docs/labs/lab5-app-ui-f8a": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-labs-lab-5-app-ui-2-b-0-bf2"
+  },
+  "/docs/labs/lab6-iot-hub-sdk-integration-2d3": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-labs-lab-6-iot-hub-sdk-integration-001-aa8"
+  },
+  "/docs/labs/lab7-device-management-implementation-7d9": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-labs-lab-7-device-management-implementation-9-c-3-aa8"
   },
   "/docs/tutorial-basics/congratulations-793": {
     "__comp": "__comp---theme-doc-item-178-a40",

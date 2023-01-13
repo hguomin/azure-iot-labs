@@ -19,5 +19,9 @@
   "previous": {
     "title": "实验二：从IoT Hub接收设备数据",
     "permalink": "/docs/labs/lab2-iothub-message-receive"
+  },
+  "next": {
+    "title": "实验四：Python实现OPC UA数据采集",
+    "permalink": "/docs/labs/lab4-opcua-python"
   }
 }

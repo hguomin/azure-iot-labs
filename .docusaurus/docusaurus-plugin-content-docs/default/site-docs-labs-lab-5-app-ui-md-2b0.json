@@ -1,0 +1,27 @@
+{
+  "unversionedId": "labs/lab5-app-ui",
+  "id": "labs/lab5-app-ui",
+  "title": "实验五：应用程序UI实现",
+  "description": "",
+  "source": "@site/docs/labs/lab5-app-ui.md",
+  "sourceDirName": "labs",
+  "slug": "/labs/lab5-app-ui",
+  "permalink": "/docs/labs/lab5-app-ui",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/labs/lab5-app-ui.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "实验四：Python实现OPC UA数据采集",
+    "permalink": "/docs/labs/lab4-opcua-python"
+  },
+  "next": {
+    "title": "实验六：在应用程序中集成Azure IoT Hub服务端SDKs",
+    "permalink": "/docs/labs/lab6-iot-hub-sdk-integration"
+  }
+}
